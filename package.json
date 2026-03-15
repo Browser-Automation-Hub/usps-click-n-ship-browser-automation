@@ -1,7 +1,7 @@
 {
-  "name": "usps-click-n-ship-browser-automation",
+  "name": "@browser-automation-hub/usps-click-n-ship-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for USPS Click-N-Ship — bulk create shipping labels, schedule pickups, track packages, manage USPS accounts, and automate postage purchasing without undocumented USPS Web Tools limitations.",
+  "description": "Browser automation for USPS Click-N-Ship — bulk create shipping labels, schedule pickups, and track packages",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/usps-click-n-ship-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/usps-click-n-ship-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
